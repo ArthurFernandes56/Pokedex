@@ -1,0 +1,250 @@
+html {
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #282828;
+
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1120px;
+    background-size: 120% 120%;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho .logo .titulo {
+    font-size: 40px;
+
+}
+
+.cabecalho .logo .pokebola {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.cabecalho .menu ul {
+    /* background-color: red; */
+    display: flex;
+    gap: 2px;
+    ;
+}
+
+.cabecalho .menu li a {
+    padding: 15px 30px;
+    transition: 0.5s;
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px #ff0000 solid;
+    color: black;
+    background-color: white;
+}
+
+.home {
+    display: flex;
+
+    min-height: calc(100vh - 81px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 60%;
+    /* text-align: justify; */
+}
+
+.home .infos p {
+    font-family: "Platypi", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.home .infos h1 {
+    font-family: "Sedan", serif;
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.home .container-imagem {
+    transform: scale(1.2);
+
+    border: #0b0b0b 25px solid;
+    border-radius: 50%;
+}
+
+.home .container-imagem .imagem img {
+    max-height: 450px;
+    border-radius: 50%;
+    border-top: 15px rgb(243, 0, 0) solid;
+    border-bottom: 15px #fff solid;
+}
+
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pokedex p {
+    text-align: center;
+}
+
+.pokedex h1 {
+    font-family: "Platypi", serif;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.pokedex .listaPkm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokedex .cartaoPkm {
+    background-color: rgb(43, 53, 80);
+    color: #fff;
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    gap: 15px;
+    border-radius: 10%;
+    transition: 0.2s ease-in-out;
+    border: #000000 solid;
+}
+
+.pokedex .cartaoPkm:hover {
+    transform: scale(1.2);
+    background-color: #6390f0;
+}
+
+.pokedex .cartaoPkm .infor {
+    display: flex;
+    justify-content: space-between;
+    border: solid rgb(255, 255, 255);
+    background-color: #000000;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.pokedex .cartaoPkm .infor span {
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.pokedex .cartaoPkm .gif {
+    width: 90px;
+    height: 90px;
+}
+
+.pokedex .cartaoPkm .tipos {
+    display: flex;
+    gap: 15px;
+
+}
+
+.pokedex .cartaoPkm .tipo {
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px rgb(255, 255, 255) solid;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.grama {
+    background-color: #7ac74c;
+}
+
+.veneno {
+    background-color: #8e0f8bfb;
+}
+
+.fogo {
+    background-color: #ee8130;
+}
+
+.agua {
+    background-color: #6390f0;
+}
+
+.inseto {
+    background-color: #a6b91a;
+}
+
+.voador {
+    background-color: #3DC7EF;
+}
+.normal{
+    background-color: #807f7f;
+}
+.eletrico{
+    background-color: rgb(193, 193, 16);
+}
+.terra{
+    background-color: #ab6e42;
+}
+.fada{
+    background-color: #ff6eee;
+}
+.lutador{
+    background-color: #871111;
+}
+.psiquico{
+    background-color: #be0082;
+}
+.pedra{
+    background-color: rgb(84, 80, 80);
+}
+.metal{
+    background-color: #4a7273;
+}
+.gelo{
+    background-color: #80b0bd;
+}
+
+.dragao{
+    background-color: #002f96;
+}
+.pokedex .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(255, 255, 255) #0000007c;
+    font-size: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
